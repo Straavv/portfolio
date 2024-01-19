@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio (Mazan Manzhikov)</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!--Header section-->
+  <header>
+    <h1><a href="#/">Mazan.dev</a></h1>
+    <nav>
+    <a  onClick="linkHome()">Home</a>
+    <a onClick="linkAboutMe()">About me</a>
+    <a onClick="linkProjects()">My Projects</a>
+    <a onClick="linkContact()">Contact</a>
+    </nav>
+  </header>
+  <!--Profile picture and description sections-->
+  <div class="profileContainer">
+    <div class="profileColumnOne">
+    <div class="profilePic"><img src="./images/avatar.png" alt=""></div>
+    <div class="profileName">
+      <h1><span id="hello">Hello,</span> my name is Mazan<br>I am a front-end dev.</h1>
+    </div>
+    </div>
+    <div class="profileRowOne">
+    <div class="profileSkills">
+      <h2>My current tech stack |</h2> <img class="stackIcons" src="./images/html.svg" /> <img class="stackIcons" src="./images/css3.svg" /> <img class="stackIcons" style="width: 75px; height: 75px;" src="./images/javascript.svg" /> <img class="stackIcons" style="width: 75px; height: 75px;" src="./images/react.svg" />
+    </div>
+    </div>
+  </div>
+    <!--------------------- About me section only ----------------------->
+  <div class="aboutMe" id="aboutMe">
+      <div class="aboutMe---img">
+        <img src="./images/aboutMe.jpg" />
+      </div>
+    <div class="aboutMe---info">
+      <h1 style="color: rgb(0, 139, 231);">About me</h1>
+      <h3>Hi, my name is Mazan and I am a <span style="color: rgb(0, 139, 231);">HR rep.</span> finding my way in the Front-End Dev.
+      </h3>
+      <div class="pin-div"><h3>Based in Barcelona</h3><img id="pin" src="./images/pin.svg" /></div>
+      <div class="div-stack">
+      <h3 style="color: rgb(0, 139, 231);">My current tech stack is: 
+      </h3><h3>HTML, CSS, JS and React and I am developing in mastering more knowledge of the front-end dev.</h3>
+      </div>
+    </div>
+    </div>
+    <!------------------------ Projects portfolio section ---------------------->
+    <div id="projects" class="portfolio">
+      <h1 id="heading--projects">Portfolio projects</h1>
+      <div class="project1">
+        <div class="project1--pic">
+        </div>
+        <div class="project1--info">
+          <div class="div--sunTrend">
+          <h2>Sun Trend </h2><img id="sunIcon" src="./images/sun.svg" /><h2 style="font-size: 22px;">(2023)</h2>
+          </div>
+          <p class="projects--info">Sun Trend is a b2b company providing products for solariums. The range of the products are listed on the website.</p>
+          <div class="languages--container">
+          <div class="languages">HTML</div>
+          <div class="languages">CSS</div>
+          <div class="languages">JavaScript</div>
+          </div>
+          <div class="demo--container">
+          <a href="./Projects/Project Aroma Trend Site/index.html" class="liveDemo">Live demo</a><img class="demoLinks" src="./images/link-round.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="project2">
+        <div class="project2--pic">
+          
+        </div>
+        <div class="project2--info">
+          <div class="div--healthSense">
+          <h2>Health Sense</h2><img id="iconHealth" src="./images/health.svg" /><h2>(2023)</h2>
+          </div>
+          <p class="projects--info">Health sense is a company that provides suplements for specific group of people and website provides information for the customers.</p>
+          <div class="languages--container">
+            <div class="languages">HTML</div>
+            <div class="languages">CSS</div>
+            <div class="languages">JavaScript</div>
+          </div>
+          <div class="demo--container">
+          <a href="./Projects/Project Health Guard website/index.html" class="liveDemo">Live demo</a><img class="demoLinks" src="./images/link-round.svg" />
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <!----------------------------- Contact me section ----------------------------->
+    <div id="contact" class="contact">
+      <div class="contact--body">
+      <h1>Contact links:</h1>
+      <div class="contact--div">
+      <div class="contact--div1">
+      <a href="https://www.linkedin.com/in/mazan-manzhikov-80780821b/" target="_blank" class="contact--links">LinkedIn</a><img src="./images/linkedin.svg" class="socialIcons" style="margin-left: 4px;" />
+      </div>
+      <div class="contact--div2">
+      <a href="mailto:straawhat@gmail.com" class="contact--links">Mail</a><img src="./images/gmail.svg" class="socialIcons" style="width: 30px; height: 30px;margin-left: 10px;" />
+      
+      </div>
+      <a class="contact--links" style="margin-top: 10px;">[straawhat@gmail.com]</a>
+      </div>
+      </div>
+    </div>
+    <!-------------------- Footer last section ------------------>
+    <footer>
+      <p>Copyright © 2024. All rights are reserved</p>
+    </footer>
+ 
+
+
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>

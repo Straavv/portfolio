@@ -1,0 +1,1199 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;200;300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poiret+One&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100&family=Space+Mono&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  
+ 
+  
+  
+}
+
+body {
+  height: 100vh;
+  
+}
+
+/* ----------------------------------Header section-------------------------------*/
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  padding: 30px 75px;
+  top:0px;
+  
+  
+  
+  
+ 
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  
+  
+}
+
+.logoPic {
+  width: 150px;
+  height: auto;
+  
+  
+}
+
+.logoPic img {
+  height: 100%;
+  width: 100%;
+}
+
+.headerItems i {
+  font-size: 13px;
+  
+}
+
+.headerItems a {
+  margin-right: 20px;
+}
+
+.headerItems a:hover {
+  border-bottom: 1px solid black;
+}
+
+.headerItems {
+  margin-left: 42px;
+  margin-right: 185px;
+  margin-top: -8px;
+}
+
+
+.headerIcons i {
+  font-size: 20px;
+  color:black;
+  transition: all 0.3s;
+}
+
+.headerIcons a:first-of-type {
+  margin-right: 20px;
+}
+
+.headerIcons i:hover {
+  transform: scale(1.12);
+}
+
+
+
+
+/*---------------------------------Dropdown menu One---------------------------------------*/
+
+.dropdownMenuOne {
+  height: 420px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  margin-top: -30px;
+  display: none;
+  border-top: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(212, 212, 212);
+  z-index: 2;
+  top: 165px;
+  
+}
+
+.dropdownActiveOne {
+  display: inline-flex;
+}
+
+.dropdownItems {
+  display: flex;
+  margin-top: 27px;
+  margin-left: 78px;
+ 
+  
+}
+
+.dropdownMenuOne a {
+  text-decoration: none;
+  color: rgb(146, 145, 145);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.dropdownMenuOne a:hover {
+  cursor: pointer;
+  text-decoration: underline black;
+  color: black;
+}
+
+
+.dropdownFirst {
+ display: flex;
+ flex-direction: column;
+ margin-right: 90px;
+}
+
+.dropdownSecond {
+display: flex;
+flex-direction: column;
+margin-right: 80px;
+}
+
+.dropdownThird {
+display: flex;
+flex-direction: column;
+margin-right: 45px;
+}
+
+.dropdownFourth {
+display: flex;
+flex-direction: column;
+margin-right: 50px;
+}
+
+.dropdownFifth {
+display: flex;
+flex-direction: column;
+}
+
+
+/*---------------------------Dropdown Menu 2-------------------------*/
+
+.dropdownMenuTwo {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-left: 80px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  position: fixed;
+  margin-top: -30px;
+  border-top: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(212, 212, 212);
+  background-color: white;
+  z-index: 2;
+  top: 165px;
+}
+
+.dropdownMenuTwo a {
+  text-decoration: none;
+  color: rgb(146, 145, 145);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.dropdownActiveTwo {
+  display: inline-flex;
+}
+
+.dropdownMenuTwo a:hover {
+  cursor: pointer;
+  text-decoration: underline black;
+  color: black;
+}
+
+.arrowActive  {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+
+
+
+
+
+/*-----------------------Banner with picture section-------------------*/
+
+.mainBanner {
+  display: flex;
+  margin-left: 78px;
+  margin-right: 78px;
+  position: relative;
+  margin-top: 170px;
+ 
+}
+
+
+.picBanner img {
+  height: 100%;
+  width: 100%;
+  
+}
+
+.picBanner {
+  width: 50%;
+  height: auto;
+  
+}
+
+.infoBanner {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 0px 70px;
+  padding-bottom: 35px;
+  background-color: #be83b0;
+  
+}
+
+.infoBanner p, h1 {
+  color: white;
+}
+
+.infoBanner h1 {
+  font-size: 50px;
+  font-weight: 300;
+  font-family: 'Playfair Display', serif;
+}
+
+.infoBanner p {
+  font-weight: 300;
+  font-size: 16.8px;
+  margin-bottom: 10.5px;
+  line-height: 30px;
+  text-align: left;
+  width: 490px;
+  color: #ffffffae;
+  letter-spacing: 0.1px;
+  
+
+}
+
+.infoBanner span {
+  font-weight: bold;
+}
+
+#poznaj {
+  height: auto;
+  width: 175px;
+  padding: 10px 20px;
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #be83b0;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  transition: all 0.4s;
+}
+
+#poznaj:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.616);
+  color:rgb(255, 255, 255);
+}
+
+/*--------------------------------------Upper picture carousel----------------*/
+
+#upperH1 {
+  color:black;
+  font-family: 'Playfair Display', serif;
+  margin-top: 50px;
+  margin-left: 78px;
+  margin-right: 78px;
+  font-weight: 400;
+  font-size: 50px;
+  
+}
+
+#upperP {
+  color: black;
+  margin-left: 78px;
+  margin-right: 78px;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18.9px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+}
+
+.upperPicCarousel {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 58px;
+  margin-right: 58px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+  
+  
+  
+  
+  
+  
+  
+}
+
+.picDiv img {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  transition: all 0.5s;
+}
+
+.picDiv img:hover {
+transform: scale(1.03);
+}
+
+.picDiv {
+  width: 325px; /* always used to be 447px */
+  height: auto;
+  margin-right: 21px;
+  border-radius: 3px;
+  overflow: hidden;
+  
+  
+  
+}
+
+
+.upperPicBody {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 1s;
+  border-radius: 3px;
+}
+
+.upperInfo {
+  
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(213, 213, 213, 0.382);
+  height: 110px;
+  width: 325px;
+  border-radius: 3px;
+
+}
+
+.upperButton {
+  position: absolute;
+  font-size: 15px;
+  font-weight: 400;
+  width: auto;
+  bottom: 3px;
+  right: 30px;
+  background-color: rgba(193, 4, 117, 0.534);        /* rgba(193, 4, 117, 0.399); */
+  border-radius: 7px;
+  cursor: pointer;
+  border: none;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+  transition: background-color 0.4s;
+  
+}
+
+.upperButton:hover {
+  background-color: rgba(183, 3, 111, 0.732);
+}
+
+
+.upperItemName {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 5px;
+  
+}
+
+.upperPrice {
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0px;
+  padding-left: 5px;
+}
+
+#upperNext {
+ position: absolute;
+ right: -8px;
+ top: 35%;
+ padding: 5px;
+ cursor: pointer;
+ background-color: transparent;
+border: none;
+font-size: 40px;
+opacity: 0;
+transition: all 0.5s;
+}
+
+#upperPrev {
+position: absolute;
+left: -8px;
+top: 35%;
+padding: 5px;
+cursor: pointer;
+background-color: transparent;
+border: none;
+font-size: 40px;
+opacity: 0;
+transition: all 0.5s;
+
+}
+
+.upperPicCarousel:hover #upperNext {
+  opacity: 1;
+}
+.upperPicCarousel:hover #upperPrev {
+  opacity: 1;
+}
+
+/*-----------------------------Button to show the catalogue------------------*/
+
+#catalogButton {
+  font-size: 20px;
+  font-weight: 400;
+  width: auto;
+  background-color: rgba(193, 4, 117, 0.534);
+  /* rgba(193, 4, 117, 0.399); */
+  cursor: pointer;
+  border: none;
+  padding: 5px 15px;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  
+}
+
+.divCatalogButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  align-items: center;
+}
+
+#catalogButton:hover {
+  transform: scale(1.05);
+}
+
+
+/*--------------------------------------Banner with 2 pics--------------------------*/
+
+#headerMiddleBanner {
+  color:black;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 50px;
+  text-align: center;
+  user-select: none;
+
+}
+
+.twoPicturesDiv {
+  display: flex;
+  margin-left: 110px;
+  margin-right: 80px;
+  margin-top: 20px;
+ 
+  
+}
+
+.twoPics img {
+  height: 400px;
+  width: 657px;
+  object-fit: cover;
+  object-position: 5% 30%;
+ 
+  
+  
+}
+
+.twoPics {
+  
+  border-radius: 3px;
+  overflow: hidden;
+  height: 400px;
+  width: auto;
+  transition: all 0.7s;
+  
+  
+}
+
+
+
+.twoPicsBody {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 5px;
+  
+
+}
+
+
+
+.twoPicsText a {
+ text-decoration: none;
+ color: white;
+ font-size: 35px;
+font-family: 'Playfair Display', serif;
+ 
+}
+
+.twoPicsText {
+  text-align: center;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  min-height: 400px;
+  min-width: 700px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+  
+  
+  
+  
+}
+
+.twoPicsBody:hover .twoPics  {
+  transform: scale(1.03);
+  opacity: 0.7;
+  
+}
+
+.twoPicsBody:hover .twoPicsText {
+  visibility: visible;
+  
+}
+
+
+
+
+/*------------------------------------Media o nas----------------------------------*/
+
+.mediaBanner {
+  margin-top: 70px;
+  background-color: #be83b0;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  user-select: none;
+}
+
+.mediaBanner h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 50px;
+  margin-top: -10px;
+}
+
+
+#mediaBtn {
+  position: absolute;
+  bottom: 65px;
+  font-size: 17px;
+  padding: 10px 20px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+  color: black;
+  transition: all 0.4s;
+  
+}
+
+#mediaBtn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.216);
+  color: rgb(255, 255, 255);
+  
+}
+
+#mediaLink {
+  font-weight: 700; 
+  text-decoration: none; 
+  color: rgba(255, 255, 255, 0.847);
+  text-decoration: underline;
+}
+
+
+#mediaLink:hover {
+  color: white;
+}
+
+.mediaBanner h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: -100px;
+}
+
+.mediaBanner p {
+  position: relative;
+  margin-top: 20px;
+  color: white;
+  font-size: 17px;
+}
+
+
+/*--------------------Middle Pic Carousel---------------*/
+
+#headerMidCarousel {
+  color: black;
+  margin-top: 50px;
+  margin-left: 78px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 300;
+
+
+}
+
+/*-----------------------Middle Pic Carousel--------------------*/
+
+.midPicCarousel {
+  display: flex;
+  margin-right: 58px;
+  margin-left: 58px;
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px 20px;
+  
+}
+
+.midPicImg {
+  height: 410px;
+  width: 326px;
+  margin-right: 20px;
+  overflow: hidden;
+  
+  
+}
+
+.midPicImg img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s;
+  
+}
+
+.midPicImg img:hover {
+  transform: scale(1.03);
+}
+
+.midPicImg .newImgs {
+  height:410px; 
+  width:325px;
+  object-fit: cover;
+  object-position: 0px 0px 25px;
+  
+}
+
+.bodyMidPicCar {
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+  
+  
+
+}
+
+
+
+#midNext {
+  position: absolute;
+  right: -8px;
+  top: 38%;
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+#midPrev {
+  position: absolute;
+  left: -8px;
+  top: 38%;
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+  opacity: 0;
+  transition: all 0.5s;
+
+}
+
+.midPicCarousel:hover #midNext {
+  opacity: 1;
+}
+.midPicCarousel:hover #midPrev {
+  opacity: 1;
+}
+
+.midPicInfo {
+  width: 326px;
+  background-color: rgba(220, 220, 220, 0.293);
+  border: gainsboro 1px solid;
+  position: relative;
+  
+}
+
+.midHeading {
+  margin-left: 5px;
+}
+
+.midPrice {
+margin-left: 5px;
+}
+
+.midBtn {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  padding: 1px 5px;
+  background-color: rgba(193, 4, 117, 0.534);
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  border-radius: 3px;
+  transition: all 0.3s;
+  color:white;
+}
+
+.midBtn:hover {
+background-color: rgba(183, 3, 111, 0.732);
+}
+
+
+/*---------------------------------------------------Blog section------------------------------*/
+
+#blogHead {
+  color: black;
+  margin-top: 50px;
+  margin-left: 78px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.blogContainer {
+  display: flex;
+  margin: 10px 78px 0px 78px;
+}
+
+.blogPic img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.7s;
+}
+
+.blogPic img:hover {
+  transform: scale(1.05);
+}
+
+.blogPic {
+  display: flex;
+  width: 450px;
+  height: 300.58px;
+  margin-right: 10px;
+  overflow: hidden;
+}
+
+.blogInfo a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+
+  
+}
+
+.blogInfo {
+  margin-top: 7px;
+  width: 450px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.blogInfo a:hover {
+  text-decoration: underline;
+}
+
+.blogDate {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.blogText {
+  margin-top: 10px;
+  color:rgb(62, 62, 62);
+  
+  
+}
+
+#blogBtn {
+font-size: 20px;
+font-weight: 400;
+width: auto;
+background-color: rgba(193, 4, 117, 0.534);
+cursor: pointer;
+border: none;
+padding: 5px 15px;
+color: rgb(255, 255, 255);
+transition: all 0.5s;
+
+}
+
+#blogBtn:hover {
+  transform: scale(1.05);
+}
+
+.divBlogBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  align-items: center;
+  
+}
+
+
+/* --------------------------Bottom banner section---------------*/
+
+.bottomBannerContainer {
+  margin-top: 70px;
+  background-color: #be83b0;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  position: relative;
+  user-select: none;
+}
+
+.bottomBannerBody {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 78px;
+  color:white;
+}
+
+
+.bottomBannerContainer h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  
+}
+
+.bottomBannerContainer h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -10px;
+  opacity: 0.8;
+}
+
+.bottomBannerContainer p {
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+
+/*---------------------------------Staff list section-------------------------*/
+
+.staffListContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 78px;
+  margin-right: 78px;
+  
+  
+}
+
+
+.staffBody {
+flex:1;
+margin-right: 10px;
+min-width: 300px;
+height: auto;
+background-color: rgba(227, 227, 227, 0.553);
+margin-bottom: 10px;
+
+}
+
+.staffPic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 90%;
+  
+  
+}
+
+.staffPic {
+  width: 200px;
+  height: auto;
+  margin:auto;
+  margin-top: 20px;
+  
+}
+
+.staffInfo {
+  padding-left: 30px;
+  padding-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+
+}
+
+.staffName {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.staffText {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/*-----------------------------Footer banner-----------------------------*/
+
+.footerBannerContainer {
+  margin-top: 70px;
+  background-color: #be83b0;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  position: relative;
+  color:white;
+  text-align: center;
+  padding: 50px 78px;
+  align-items: center;
+  
+  
+  
+}
+
+
+.footerBannerContainer h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 49px;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footerBannerContainer p {
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.footerBannerContainer input {
+  width: 400px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.499);
+  transition: all 0.3s;
+
+}
+
+::placeholder {
+  color: white;
+}
+
+.footerBannerContainer input:hover {
+  border-color: #ffffff;
+  box-shadow: 0 0 10px #ffffff;
+}
+
+.inputDivv {
+ position: relative;
+}
+
+.inputDivv button {
+  position: absolute;
+  right: 15px;
+  top: 29%;
+  background-color: transparent;
+  border: none;
+  color: white;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.inputDivv button i {
+  font-size: 23px;
+  
+}
+
+
+/* --------------------------------- --Footer ending--------------------------*/
+
+.footerEndContainer {
+  display: flex;
+  margin-top: 90px;
+  margin-right: 78px;
+  margin-left: 78px;
+  
+}
+
+.footerEndInfo {
+  padding:70px;
+}
+
+.footerEndPic img {
+height: 590px;
+width: 680px;
+object-fit: cover;
+object-position: 5% 5%;
+}
+
+
+.footerEndInfo h4 {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.6px;
+}
+
+
+.footerEndInfo h1 {
+font-family: 'Playfair Display', serif;
+font-size: 50px;
+color: black;
+font-weight: 300;
+margin-bottom: 30px;
+}
+
+#addressEnd {
+font-weight: 300;
+font-size: 17px;
+}
+
+.endLinks {
+  font-weight: 700;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.716);
+}
+
+.footerEndInfo h2 {
+  font-size: 19px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+.endLinks a {
+  font-weight: 300;
+  text-decoration: none;
+  color:black;
+  text-decoration: underline 0.5px;
+  
+}
+
+.endLinks a:hover {
+  text-decoration: underline;
+}
+
+#linkMail {
+  text-decoration: underline 0.5px;
+  color:black;
+}
+
+#linkMail:hover {
+  text-decoration: underline;
+}
+
+
+/*----------------------------------Bottom social links section--------------------*/
+
+.socials {
+  margin-top: 100px;
+  height: 140px;
+  border-top: 1px solid rgba(0, 0, 0, 0.111);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.socials i {
+ font-size: 23px;
+ margin-right: 20px;
+ transition: all 0.1s;
+}
+
+.socials i:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/*----------------------------------------Bottom Footer section-------------------*/
+
+.bottomFooter {
+  margin-top: 100px;
+  display: flex;
+  margin-right: 78px;
+  margin-left: 78px;
+  padding: 30px;
+}
+
+.listt {
+  display: flex;
+  list-style-type:disc;
+  
+}
+
+.listt li {
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+
+
+.bottomFooter p {
+  font-size: 14px;
+  
+}
+
+.bottomFooter p a {
+  text-decoration: none;
+  color:black;
+}
+
+.bottomFooter p:hover  {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottomFooter p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

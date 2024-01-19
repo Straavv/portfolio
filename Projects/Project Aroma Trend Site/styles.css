@@ -1,0 +1,1352 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poiret+One&family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100&family=Space+Mono&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+
+body {
+  height: 100vh;
+  
+  
+
+  
+  
+}
+
+/* ---------------------------------------------Top gray banner--------------------------------------- */
+
+.topGray {
+  height: 38px;
+  background-color: rgba(218, 218, 218, 0.495);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  justify-content: center;
+  color: black;
+  
+  
+}
+
+.topGray a {
+font-family: inherit;
+text-decoration: none;
+color: black;
+}
+
+#linkMail {
+  margin-right: 14px;
+  
+}
+
+#linkMail:hover {
+  color: #ff00c8;
+}
+
+#linkPhone {
+  margin-right: 327px;
+  
+}
+
+#linkPhone:hover {
+  color: #ff00c8;
+}
+
+#promoText {
+  margin-left: 327px;
+}
+
+
+#linkLogin {
+  margin-left: 3px;
+  text-decoration: underline;
+}
+
+#linkLogin:hover {
+  color: #ff00c8;
+}
+
+/*---------------------------------------------- The main header ------------------------------------  */
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+#welcomeText {
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: -8px;
+}
+
+i {
+font-size: 20px;
+}
+
+#user {
+  margin-right: 70px;
+}
+
+#heart, #shopping {
+  margin-right: -170px;
+}
+
+#inputSearch {
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: 400;
+  border-width: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 250px;
+  margin-right: -150px;
+
+}
+
+#inputSearch::placeholder {
+  color: black;
+}
+
+.mainHeader i:hover {
+  color: #ff00c8;
+}
+
+/*------------------------------------------------------ Menu bar ------------------------------------------  */
+
+
+.menu {
+  display: flex;
+  margin-left: 22px;
+  margin-top: 36px;
+  margin-right: 20px;
+  justify-content: space-between;
+  
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+
+.menu a:hover {
+  color: #ff00c8;
+  
+}
+
+
+
+.one {
+  display: flex;
+ 
+}
+
+.one a {
+  margin-left: 44px;
+}
+
+
+
+
+.two {
+  
+  display: flex;
+  width: fit-content;
+  
+  
+}
+
+.two a {
+  margin-right: 40px;
+}
+
+/*------------------------------------------Side bar Soleo-------------------------------------------*/
+
+.menuOne {
+  padding-bottom: 7px;
+}
+
+.sideBarSoleo {
+  position: absolute;
+  z-index: 1;
+  width: 685px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+  align-items: center;
+  left: 0px;
+  top: 189px;
+  box-shadow: 1px 1px 5px 1px rgb(65, 63, 63);
+  display: none;
+  overflow: hidden;
+  
+  
+  
+}
+
+.sideBarSoleo p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.sideBarSoleo a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.sideBarSoleo a:hover {
+  color: #ff00c8;
+  font-weight: 600;
+}
+
+.firstRowSoleo {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 150px;
+  
+}
+
+.secondRowSoleo {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 200px;
+  margin-top: -35px;
+  
+}
+
+.menuOne {
+  
+  width: fit-content;
+}
+
+.menuOne:hover .sideBarSoleo {
+  display:inline-flex;
+  
+}
+
+
+
+/*----------------------------------------------new sidebar super tan------------------------------- */
+
+
+.sideBarSupertan {
+  position: absolute;
+  z-index: 1;
+  width: 685px;
+  height: 300px;
+  left: 0px;
+  top: 179px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(65, 63, 63);
+  display: none;
+  overflow: hidden;
+
+}
+
+.sideBarSupertan p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.sideBarSupertan a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.sideBarSupertan a:hover {
+  color: #ff00c8;
+    font-weight: 600;
+}
+
+.firstRowSupertan {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 150px;
+  margin-top: -20px;
+}
+
+.secondRowSupertan {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 200px;
+  margin-top: 15px;
+  
+}
+
+.menuTwo {
+  width: fit-content;
+  
+}
+
+.menuTwo:hover .sideBarSupertan {
+  display: inline-flex;
+
+}
+
+
+
+/*-------------------------------------------- Tan Desire menu side bar-------------------------------- */  
+
+.sideBarTanDesire {
+  position: absolute;
+  z-index: 1;
+  width: 685px;
+  height: 300px;
+  left: 0px;
+  top: 179px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(65, 63, 63);
+  display: none;
+  overflow: hidden;
+
+
+}
+
+.sideBarTanDesire p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.sideBarTanDesire a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.sideBarTanDesire a:hover {
+  color: #ff00c8;
+  font-weight: 600;
+}
+
+.firstRowTanDesire {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 150px;
+  margin-top: -90px;
+}
+
+.secondRowTanDesire {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 200px;
+  margin-top: 15px;
+
+}
+
+.menuThree {
+  width: auto;
+  
+
+}
+
+.menuThree:hover .sideBarTanDesire {
+  display: inline-flex;
+
+}
+
+
+/*---------------------------------------------------- Wild tan menu sidebar----------------------------- */
+
+.sideBarWildTan {
+  position: absolute;
+  z-index: 1;
+  width: 685px;
+  height: 250px;
+  left: 0px;
+  top: 179px;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  box-shadow: 1px 1px 5px 1px rgb(65, 63, 63);
+  display: none;
+  overflow: hidden;
+  
+
+}
+
+
+.sideBarWildTan p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.sideBarWildTan a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.sideBarWildTan a:hover {
+  color: #ff00c8;
+    font-weight: 600;
+}
+
+.firstRowWildTan {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 150px;
+  margin-top: -40px;
+}
+
+.secondRowWildTan {
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  line-height: 35px;
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+
+}
+.menuFour {
+  width: fit-content;
+}
+
+.menuFour:hover .sideBarWildTan {
+  display:inline-flex;
+
+}
+
+/*---------------------------------------Side bar Product Category-------------------------------------- */
+
+.menuFive {
+  display: flex;
+  width: fit-content;
+  
+}
+
+.sideBarProductCategory {
+  height: 560px;
+  width: 1380px;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  display: none;
+  top: 190px;
+  right: 0px;
+  box-shadow: 1px 1px 5px 1px rgb(65, 63, 63);
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+
+.menuFive:hover .sideBarProductCategory {
+  display: inline-flex;
+}
+
+.firstRowProductCategory {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  line-height: 40px;
+  margin-left: 50px;
+  margin-top: -150px;
+  width: fit-content;
+  
+}
+
+.firstRowProductCategory a {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.firstRowProductCategory p {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.firstRowProductCategory a:hover {
+  font-weight: 600;
+}
+
+
+.secondRowProductCategory {
+  display: flex;
+  width: 650px;
+  margin-top: 0px;
+  margin-right: 40px;
+  
+}
+
+.textPC {
+width: 250px;
+
+}
+
+.picPC {
+padding-left: 80px;
+
+  
+}
+
+.secondRowProductCategory p {
+  font-size: 17px;
+  font-weight: 400;
+
+}
+
+#accel {
+  font-weight: 600;
+    font-size: 25px;
+}
+
+#productCategoryPic {
+  width: 320px;
+  height: 310px;
+}
+/*---------------------------------------------------Pic Carousel-----------------------------------------*/
+
+
+.picsCarousel {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 24px;
+  height: 558px;
+  position: relative;
+  overflow: hidden;
+  
+  
+  
+  }
+  
+
+
+.slide {
+position: absolute;
+transition: all 1s;
+width: 100%;
+
+}
+
+.slide img {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+  transition: all 1s;
+  
+
+}
+
+.slide img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+.picBtn {
+  opacity: 0;
+}
+
+.picsCarousel:hover .picBtn {
+  opacity: 1;
+}
+
+
+#next i, #prev i {
+ font-size: 37px;
+ background-color: transparent;
+ border-radius: 4px;
+ padding: 3px;
+ 
+}
+
+
+#next {
+  position: absolute;
+  top: 45%;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
+
+#prev {
+position: absolute;
+  top: 45%;
+  left: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
+
+
+/*------------------------------Section of middle page pictures----------------------------------*/
+
+.middlePagePics {
+ 
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  height: 390px;
+  width: 1480px;
+  margin-top: 20px;
+  border-radius: 3px;
+  
+  
+  
+}
+
+.classMidPic1 {
+  overflow: hidden;
+  width: 860px;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.classMidPic2 {
+overflow: hidden;
+border-radius: 3px;
+}
+
+#midPic1 {
+width: 860px;
+border-radius: 3px;
+transition: all 0.7s;
+ 
+}
+
+#midPic2 {
+width: 600px;
+border-radius: 3px;
+transition: all 0.7s;
+
+}
+
+#midPic1:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+#midPic2:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+/*---------------------------------Bottom Page Pictures---------------------------------------*/
+
+.bottomPagePics {
+ 
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.classBottomPic1 {
+  margin-right: 20px;
+  overflow: hidden;
+  border-radius: 3px;
+   
+}
+
+.classBottomPic2 {
+border-radius: 3px;
+overflow: hidden;
+
+}
+
+.classBottomPic1 img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s;
+}
+
+.classBottomPic2 img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.7s;
+}
+
+.classBottomPic1 img:hover {
+  transform: scale(1.05);
+}
+
+.classBottomPic2 img:hover {
+  transform: scale(1.05);
+}
+
+
+/*---------------------------------Logos Manufactures----------------------------------------*/
+
+.logoManuf {
+  
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  display: flex;
+  
+  
+ 
+}
+
+.logoManufPic {
+  width: 280px;
+  height: 130px;
+  margin-left: 20px;
+  border: rgb(200, 199, 199) 1px solid;
+  object-fit: contain;
+  padding: 15px;
+  border-radius: 3px;
+  
+}
+
+.logoManufPic:hover {
+  cursor: pointer;
+  border: #ff00c8 1px solid;
+}
+
+#newProductss {
+  margin-top: 55px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+/*------------------------------------------Section of Picture Slide Show--------------------------------*/
+
+
+.slideShowPics {
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  width: auto;
+  transition: all 1s;
+  
+  
+  
+  
+}
+
+.newProductsPics {
+  
+  margin-right: 92.5px;
+  background-color: rgba(184, 183, 183, 0.321);
+  padding: 0px 60px;
+  width: 280px;
+  border-radius: 3px;
+  transition: all 0.7s;
+  
+  height: 402px;
+  
+  
+}
+
+#checkMore {
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 11px;
+  margin-top: -30px;
+  color:white;
+  background-color: #e51576;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#checkMore:hover {
+  background-color: black;
+
+}
+
+#price {
+  float: left;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+.newProductsInfo {
+  
+  position: relative;
+  line-height: 21px;
+  width: 280px;
+  margin-top: 20px;
+  transition: all 0.7s;
+  
+  
+  
+}
+
+.newProducts {
+  
+  
+  height: 600px;
+  
+}
+
+.needToBeMovedPics {
+  
+  margin-left: -20px;
+}
+
+
+
+
+.newProductsPics img {
+  transition: all 0.3s;
+  
+  
+  
+}
+
+.newProducts a {
+  color: black;
+  text-decoration: none;
+  
+  
+}
+
+
+
+#productPrev {
+  left: 0px;
+  position: absolute;
+  top: 32%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  
+}
+
+#productNext {
+  right: 0px;
+  position: absolute;
+  top: 32%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+#productPrev i, #productNext i {
+  font-size: 37px;
+  background-color: transparent;
+  padding: 3px;
+  
+
+}
+
+
+
+.newProductsPics img:hover {
+transform: scale(1.1);
+}
+
+.slideShowPics:hover #productNext {
+  opacity: 1;
+}
+.slideShowPics:hover #productPrev {
+  opacity: 1;
+}
+
+/*------------------------------------------Swipe icons section---------------------------------*/
+
+
+.swipeIconsContainer {
+display: flex;
+margin-left: 20px;
+margin-right: 20px;
+height: 200px;
+user-select: none;
+overflow: hidden;
+cursor: grab;
+
+}
+
+
+.activeM {
+  cursor: grabbing;
+}
+
+
+
+.swipeIcons {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  margin-left: 117.5px;
+  
+}
+
+
+.swipeIconImg{
+height: 65px;
+width: 70px;
+margin: auto;
+
+}
+
+.swipeIcons p {
+font-size: 16px;
+display: flex;
+text-align:center;
+flex-direction: column;
+height: 80px;
+justify-content: start;
+
+
+}
+
+.swipeIcons span {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: -17px;
+}
+
+#exceptionIcon {
+  margin-left: 50px;
+}
+
+.activeSlider {
+  cursor:grabbing;
+}
+
+/* I FUCKING CANT TO PUT 2 DIVS ON TOP EACH OTHER, FLEX DIRECTION COLUMN FUCKS IT OVER
+I NEED TO MAKE IT GO OVER THE DIV BARRIER AND ONLY THEN APPLY OVERFLOW: HIDDEN.
+THE WIDTH STOPS CHANGING IF MARGIN TO THE LEFT/RIGHT IS TOO BIG, IT NEEDS TO BE FIXED ASAP
+Bro, I did it :P*/
+
+
+/*---------------------------------------Banner section----------------------------------------------*/
+
+.bannerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  
+ 
+}
+
+
+
+.bannerContainer img {
+margin-top: 20px;
+scale: 1.11;
+margin-bottom: 20px;
+
+
+}
+
+.bannerInfo {
+  position: absolute;
+  top: 45px;
+  left: 120px;
+  width: 450px;
+  margin-top: 20px;
+ 
+  
+}
+
+#offer {
+  color:white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#welcomeSun {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+#cooperation {
+  color: white;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+#checkTerms {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 13px;
+  color: white;
+  background-color: #e51576;
+  border-radius: 5px;
+  border: none;
+  margin-top: 35px;
+  transition: background-color 0.3s;
+}
+
+#checkTerms:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+#chosen {
+  margin-top: 80px;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+/*----Chosen for you products at the bottom, carousel of pics again but with automatic this time--------*/
+
+
+.chosenContainer {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+ 
+  
+}
+
+.chosenContainer:hover #chosenNext {
+  opacity: 1;
+}
+.chosenContainer:hover #chosenPrev {
+  opacity: 1;
+}
+
+.chosenPic {
+  width: 280px;
+  height: auto;
+  background-color: rgba(184, 183, 183, 0.321);
+  padding: 0px 40px;
+  
+  
+}
+
+.chosenPic img {
+  transition: all 0.3s;
+}
+
+.chosenPic img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.chosenDetails {
+  display: flex;
+  flex-direction: column;
+  margin-right: 105.5px;
+  transition: all 0.7s;
+  
+  position: relative;
+  
+}
+
+
+
+
+.chosenPrice {
+  font-weight: 700;
+  
+}
+
+.chosenText {
+  
+
+display: flex;
+flex-direction: column;
+position: relative;
+margin-top: 20px;
+
+  
+
+}
+
+.chosenButton {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 8px 11px;
+  color: white;
+  background-color: #e51576;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  }
+
+
+
+
+
+.chosenButton:hover {
+  background-color: black;
+
+}
+
+.chosenDesc {
+  margin-bottom: 40px;
+  position: relative;
+  
+  
+}
+
+#chosenNext {
+position: absolute;
+top: 35%;
+right: 0px;
+background-color: transparent;
+border: none;
+cursor: pointer;
+opacity: 0;
+
+}
+
+#chosenPrev {
+  position: absolute;
+  top:35%;
+  left: 0px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  
+}
+
+#chosenPrev i, #chosenNext i {
+  font-size: 37px;
+  background-color: transparent;
+  padding: 3px;
+
+
+}
+
+
+/*---------------------------Last banner-----------------------------*/
+
+.lastBanner {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin-top: 50px;
+  width: 100%;
+  height: 380px;
+  background-color: rgb(37, 37, 37);
+  line-height: 30.5px;
+  
+  
+
+}
+
+.lastBanner a {
+  text-decoration: none;
+  color:white;
+  font-size: 14px;
+  
+
+}
+
+.picBanner {
+  height: 40px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+
+.picBanner img {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+}
+
+.bannerFirstRow {
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+margin-right: 170px;
+margin-top: 49px;
+
+}
+.bannerSecondRow {
+display: flex;
+flex-direction: column;
+margin-right: 185px;
+margin-top: 45px;
+
+}
+.bannerThirdRow {
+display: flex;
+flex-direction: column;
+margin-right: 215px;
+margin-top: 45px;
+}
+.bannerFourthRow {
+display: flex;
+flex-direction: column;
+margin-top: 45px;
+}
+
+.lastBanner .bannerHeading {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1px;
+  
+}
+
+.bannerFirstRow i {
+  font-size: 33px;
+  margin-right: 20px;
+}
+
+.bannerIcons {
+  margin-top: 35px;
+}
+
+
+.bannerHover:hover {
+  color: #ff00c8;
+}
+
+.bannerIcons i:hover {
+  color: #ff00c8;
+}
+
+/*-------------------------------------footer section---------------------------*/
+
+footer {
+  display: flex;
+  height: 77px;
+  width: 100%;
+  
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.svgPic1 {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  
+  position: absolute;
+  right: 120px;
+  margin-top: -15px;
+}
+.svgPic2 {
+  width: 60px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  
+  margin-top: -15px;
+  margin-right: 20px;
+  
+}
+
+.svgs {
+  width: 100%;
+  height: 100%;
+}
+
+footer p {
+  margin-top: -15px;
+  font-size: 10px;
+  color:gray;
+}
+
+#paymentsLogos {
+  margin-top: -15px;
+  margin-left: -40px;
+}
+
+
+#designP {
+  position: absolute;
+  right: 210px;
+}
+
+#arroma {
+  margin-left: 20px;
+  
+}
+

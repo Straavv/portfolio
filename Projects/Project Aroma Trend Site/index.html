@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Starter</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!--Top section of gray bar-->
+  <header class="topGray">
+    <a href="#" id="linkMail">Mail: shop@aromatrend.pl</a>
+    <a href="#" id="linkPhone">Phone: +48 22 721 19 21</a>
+    <p id="promoText">Are you interested in the wholesale price of the products?</p>
+    <a href="#" id="linkLogin">Login / Register</a>
+  </header>
+  <!--Navigator section with logo and search bar and icons-->
+  <header class="mainHeader">
+    <img src="./images/logo.png" alt="">
+    <h2 id="welcomeText">WELCOME TO THE SUNNY SIDE OF BUSINESS</h2>
+    <input type="text" id="inputSearch" placeholder="Search">
+    <i class="fa-solid fa-basket-shopping" id="shopping"></i>
+    <i class="fa-regular fa-heart" id="heart"></i>
+    <i class="fa-regular fa-user" id="user"></i>
+  </header>
+  <!--Section of navigations with links across (Soleo menu)-->
+  <nav class="menu">
+    <div class="one">
+      <div class="menuOne">
+    <a href="#" style="margin-left: 0px;" class="soleo">Soleo</a>
+    <div class="sideBarSoleo">
+      <div class="firstRowSoleo">
+        <p>Collection</p>
+        <a href="#">Collagen</a>
+        <a href="#">Classic</a>
+        <a href="#">Glamour</a>
+        <a href="#">Black&Gold</a>
+        <a href="#">Basic</a>
+      </div>
+      <div class="secondRowSoleo">
+        <p>Product Category</p>
+        <a href="#">Accelerators</a>
+        <a href="#">Bronzers</a>
+        <a href="#">Tinlge</a>
+        <a href="#">After-tan lotions</a>
+      </div>
+    </div>
+    </div>
+    <!--Supertan menu-->
+    <div class="menuTwo">
+    <a href="#" class="supertan">Supertan</a>
+    <div class="sideBarSupertan">
+      <div class="firstRowSupertan">
+        <p>Collection</p>
+        <a href="#">California</a>
+        <a href="#">Celebration</a>
+        <a href="#">Sensation</a>
+      </div>
+      <div class="secondRowSupertan">
+        <p>Product Category</p>
+        <a href="#">Accelerators</a>
+        <a href="#">Bronzers</a>
+        <a href="#">Tinlge</a>
+        <a href="#">After-tan lotions</a>
+      </div>
+    </div>
+    </div>
+    <!--Tan Desire menu-->
+    <div class="menuThree">
+    <a href="#" class="tanDesire">Tan Desire</a>
+    <div class="sideBarTanDesire">
+      <div class="firstRowTanDesire">
+        <p>Collection</p>
+        <a href="#">Tan Desire</a>
+      </div>
+      <div class="secondRowTanDesire">
+        <p>Product Category</p>
+        <a href="#">Accelerators</a>
+        <a href="#">Bronzers</a>
+        <a href="#">Tinlge</a>
+        <a href="#">After-tan lotions</a>
+      </div>
+    </div>
+    </div>
+    <!--Wild tan menu-->
+    <div class="menuFour">
+    <a href="#" class="wildTan">Wild Tan</a>
+    <div class="sideBarWildTan">
+      <div class="firstRowWildTan">
+        <p>Collection</p>
+        <a href="#">Wild Tan</a>
+      </div>
+      <div class="secondRowWildTan">
+        <p>Product Category</p>
+        <a href="#">Accelerators</a>
+        <a href="#">Bronzers</a>
+        <a href="#">Tinlge</a>
+        
+      </div>
+    </div>
+    </div>
+      <a href="#">Your Sun</a>
+    </div>
+    <!--Product Category Menu-->
+    <div class="two">
+      <div class="menuFive">
+    <a href="#" class="productCategory">Product category</a>
+    <div class="sideBarProductCategory">
+    <div class="firstRowProductCategory">
+      <p>Product Category</p>
+      <a href="#" id="accelerators">Accelerators</a>
+      <a href="#" id="bronzers">Bronzers</a>
+      <a href="#" id="tingle">Tingle</a>
+      <a href="#" id="lotions">After-tan lotions</a>
+      <a href="#" id="accessories">Accessories</a>
+      <a href="#" id="POS">POS</a>
+    </div>
+    <div class="secondRowProductCategory">
+      <div class="textPC">
+      <p id="accel">Accelerators</p>
+      <br>
+      <p id="productCatText">Accelerators are innovative formulas with tyrosine, activating the natural process of formation of brown skin pigment.
+      During tanning sessions in a solarium, they shorten the time of exposure to UV radiation, protect and consolidate the
+      achieved tanning effect. The activators, enriched with extracts and caring oils, moisturize and nourish the skin,
+      guaranteeing its softness and wonderful quality.</p>
+      <br>
+      <a href="#" style="color: #ff00c8;">See all accelerators</a>
+    </div>
+    <div class="picPC">
+<img id="productCategoryPic" src="./images/ProductCategoryAccelerators.png" alt="">
+    </div>
+    </div>
+    </div>
+    </div>
+    <a href="#">New products</a>
+    <a href="#" style="margin-right: 0px;">Sale</a>
+    </div>
+  </nav>
+  <!--Section of pics Carousel-->
+  <div class="picsCarousel">
+  <div class="slide"><img src="./images/aromaMenu1.png" alt=""></div>
+  <div class="slide"><img src="./images/aromaMenu2.png" alt=""></div>
+  <div class="slide"><img src="./images/aromaMenu3.png" alt=""></div>
+<button id="prev" class="picBtn"><i class="fa-solid fa-arrow-left"></i></button>
+<button id="next" class="picBtn"><i class="fa-solid fa-arrow-right"></i></button>
+</div>
+<!--Section of middle page pictures-->
+<div class="middlePagePics">
+  <div class="classMidPic1">
+<a href="https://shop.aromatrend.eu/all-products/1/default/1/news/1"><img id="midPic1" src="./images/middlePagePic1.png" alt=""></a>
+  </div>
+  <div class="classMidPic2">
+<img id="midPic2" src="./images/middlePagePic2.png" alt="">
+  </div>
+</div>
+<!--Section of bottom page pictures-->
+<div class="bottomPagePics">
+  <div class="classBottomPic1">
+    <img src="./images/bottomPagePic1.png" alt="">
+  </div>
+  <div class="classBottomPic2">
+    <img src="./images/bottomPagePic2.png" alt="">
+  </div>
+</div>
+<!--Section of logos manufactures-->
+<div class="logoManuf">
+  <a href="https://www.soleo.eu/"><img class="logoManufPic" style="margin-left: 0px; padding: 45px;" src="./images/logoManuf1.png" alt=""></a>
+  <a href="https://www.supertan.eu/"><img class="logoManufPic" style="padding: 20px;" src="./images/logoManuf2.png" alt=""></a>
+  <a href="https://tandesire.com/"><img class="logoManufPic" style="padding: 23px;" src="./images/logoManuf3.png" alt=""></a>
+  <img class="logoManufPic" src="./images/logoManuf4.png" alt="">
+  <a href="https://wildtan.eu/en/"><img class="logoManufPic" src="./images/logoManuf5.png" alt="">
+</div></a>
+<h1 id="newProductss">New products</h1>
+<!--Section of Picture Slide Show-->
+<div class="slideShowPics">
+  <div class="newProducts">
+  <div class="newProductsPics">
+    <img src="./images/newProducts1.png" alt="">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">SuperTan Hollywood Legs 10ml x 250pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€560.00</p>
+    <button id="checkMore">check more</button>
+  </div>
+  </div>
+  <div class="newProducts">
+  <div class="newProductsPics">
+    <img  src="./images/newProducts2.png" alt="">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">SuperTan Hollywood Legs 10ml x 25pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€70.00</p>
+    <button id="checkMore">check more</button>
+    </div>
+  </div>
+  <div class="newProducts">
+  <div class="newProductsPics">
+    <img  src="./images/newProducts3.png" alt="">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">SuperTan Hollywood Legs 135ml x 24pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€499.20</p>
+    <button id="checkMore">check more</button>
+  </div>
+  </div>
+  
+  <div class="newProducts">
+  <div class="newProductsPics">
+    <img  src="./images/newProducts4.png" alt="">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">SuperTan Hollywood Legs 10ml x 1pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€2.80</p>
+    <button id="checkMore">check more</button>
+  </div>
+  </div>
+  <div class="newProducts">
+  <div class="newProductsPics">
+    <img  src="./images/newProducts5.png" alt="">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">SuperTan Hollywood Legs 135ml x 1pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€26.00</p>
+    <button id="checkMore">check more</button>
+</div>
+</div>
+<div class="newProducts">
+  <div class="newProductsPics">
+    <img  src="./images/newProducts6.png" alt="" class="needToBeMovedPics">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">Wild Tan Sexy Carrot Accelerator 15ml x 1pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€1.49</p>
+    <button id="checkMore">check more</button>
+  </div>
+  </div>
+  
+  <div class="newProducts">
+  <div class="newProductsPics">
+    <img  src="./images/newProducts7.png" alt="" class="needToBeMovedPics">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">Wild Tan Sexy Carrot Bronzer 15ml x 1pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€1.49</p>
+    <button id="checkMore">check more</button>
+  </div>
+  </div>
+  <div class="newProducts">
+  <div class="newProductsPics">
+    <img  src="./images/newProducts8.png" alt="" class="needToBeMovedPics">
+    </div>
+    <div class="newProductsInfo">
+    <a href="#">Wild Tan Black Strong Bronzer 15ml x 1pcs</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p id="price">€1.49</p>
+    <button id="checkMore">check more</button>
+    </div>
+  </div>
+  
+  <button id="productPrev"><i class="fa-solid fa-arrow-left"></i></button></button>
+  <button id="productNext"><i class="fa-solid fa-arrow-right"></i></button></button>
+</div>
+<!-------------------------------------------------Swipe icons section--------------------------------------->
+<div class="swipeIconsContainer">
+  <div class="swipeIcons" id="exceptionIcon">
+  <img class="swipeIconImg" src="./images/new-ico1.png" alt="">
+  <p><span>Perfect consistency</span><br>The smell does not change during tanning</p>
+  </div>
+  <div class="swipeIcons">
+  <img class="swipeIconImg" src="./images/new-ico2.png" alt="">
+  <p><span>High quality</span><br>100% satisfaction</p>
+  </div>
+  <div class="swipeIcons">
+  <img class="swipeIconImg" src="./images/new-ico3.png" alt="">
+  <p><span>Security Guarantee</span><br>Tested and certified</p>
+  </div>
+  <div class="swipeIcons">
+  <img class="swipeIconImg" src="./images/new-ico4.png" alt="">
+  <p><span>We deliver with joy!</span><br>Fast and free shipping</p>
+  </div>
+  <div class="swipeIcons">
+  <img class="swipeIconImg" src="./images/new-ico5.png" alt="">
+  <p><span>We give out gifts!</span><br>Freebies for orders</p>
+  </div>
+</div>
+<!--Banner bottom section-->
+<div class="bannerContainer">
+<img src="./images/banner-new-fw.png" alt="">
+  <div class="bannerInfo">
+    <p id="offer">Offer for solariums</p>
+    <p id="welcomeSun">Welcome to the Sunny side of the business.</p>
+    <p id="cooperation">Cooperation with us is not only about the highest quality cosmetics. We take exceptional care of our business partners,</p>
+    <button id="checkTerms">Check the terms of cooperation</button>
+  </div>
+</div>
+<h1 id="chosen">Chosen for you</h1>
+<!--Chosen for you products at the bottom, carousel of pics again but with automatic this time-->
+<div class="chosenContainer">
+  <!--Chosen p#1-->
+  <div class="chosenDetails" style="margin-left: 0px;">
+  <div class="chosenPic">
+  <img src="./images/chosen1.png" alt="" style="padding-left: 15px;">
+  </div>
+  <div class="chosenText">
+  <p class="chosenDesc">SuperTan Hollywood Legs 10ml x 250pcs</p>
+  <p class="chosenPrice">€560.00</p>
+  <button class="chosenButton">check more</button>
+  </div>
+  </div>
+  <!--Chosen p#2-->
+  <div class="chosenDetails">
+  <div class="chosenPic">
+  <img src="./images/chosen2.png" alt="">
+  </div>
+  <div class="chosenText">
+  <p class="chosenDesc">SuperTan Choco Raspberry 150ml x 24pcs</p>
+  <p class="chosenPrice">€499.20</p>
+  <button class="chosenButton">check more</button>
+  </div>
+  </div>
+  <!--Chosen p#3-->
+  <div class="chosenDetails">
+  <div class="chosenPic">
+  <img src="./images/chosen3.png" alt="">
+  </div>
+  <div class="chosenText">
+  <p class="chosenDesc">SuperTan Dark Sauna 150ml x 24pcs</p>
+  <p class="chosenPrice">€499.20</p>
+  <button class="chosenButton">check more</button>
+  </div>
+  </div>
+  <!--Chosen p#4-->
+  <div class="chosenDetails">
+  <div class="chosenPic">
+  <img src="./images/chosen4.png" alt="">
+  </div>
+  <div class="chosenText">
+  <p class="chosenDesc">SuperTan Papaya&Pomegranate 150ml x 24pcs</p>
+  <p class="chosenPrice">€460.80</p>
+  <button class="chosenButton">check more</button>
+  </div>
+  </div>
+  <!--Chosen p#5-->
+  <div class="chosenDetails">
+  <div class="chosenPic">
+  <img src="./images/chosen5.png" alt="">
+  </div>
+  <div class="chosenText">
+  <p class="chosenDesc">SuperTan Peaches&Coconut 150ml x 24pcs</p>
+  <p class="chosenPrice">€422.40</p>
+  <button class="chosenButton">check more</button>
+  </div>
+  </div>
+  <!--Chosen p#6-->
+  <div class="chosenDetails">
+  <div class="chosenPic">
+  <img src="./images/chosen6.png" alt="">
+  </div>
+  <div class="chosenText">
+  <p class="chosenDesc">SuperTan Tropical Fruit 150ml x 24pcs</p>
+  <p class="chosenPrice">€499.20</p>
+  <button class="chosenButton">check more</button>
+  </div>
+  </div>
+    <!--Chosen p#7-->
+  <div class="chosenDetails">
+  <div class="chosenPic">
+  <img src="./images/chosen7.png" alt="">
+  </div>
+  <div class="chosenText">
+  <p class="chosenDesc" style="margin-bottom: 60px;" >Your Sun Shot Vit. D3 80ml x 96pcs</p>
+  <p class="chosenPrice">€230.40</p>
+  <button class="chosenButton">check more</button>
+  </div>
+  </div>
+  <button id="chosenNext"><i class="fa-solid fa-arrow-right"></i></button>
+  <button id="chosenPrev"><i class="fa-solid fa-arrow-left"></i></button>
+</div>
+<!--Last banner of the page-->
+<div class="lastBanner">
+  <div class="bannerFirstRow">
+  <div class="picBanner"><img src="./images/bannerLogo.png" alt=""></div>
+  <a href="#" class="bannerHeading">Contact</a>
+  <a href="#">mail: <span class="bannerHover">shop@aromatrend.pl</span></a>
+  <a href="#">phone: <span class="bannerHover">+48 22 721 19 21</span></a>
+  <div class="bannerIcons">
+  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+  </div>
+  <div class="bannerSecondRow">
+  <a href="#" class="bannerHeading">About AROMA TREND</a>
+  <a href="#" class="bannerHover">About us</a>
+  <a href="#" class="bannerHover">Our brands</a>
+  </div>
+  <div class="bannerThirdRow">
+  <a href="#" class="bannerHeading">Shop info</a>
+  <a href="#" class="bannerHover">Delivery & Payment</a>
+  <a href="#" class="bannerHover">Returns & Complaints</a>
+  <a href="#" class="bannerHover">Terms & Conditions</a>
+  <a href="#" class="bannerHover">Privacy policy</a>
+  </div>
+  <div class="bannerFourthRow">
+  <a href="#" class="bannerHeading">Account and order history</a>
+  <a href="#" class="bannerHover">My Account</a>
+  <a href="#" class="bannerHover">My Orders</a>
+  <a href="#" class="bannerHover">Discount Program</a>
+  </div>
+</div>
+<!--footer section-->
+<footer>
+  <div class="foot1"><p id="arroma">©2022 Aroma Trend</p></div>
+  <div class="foot2"><img id="paymentsLogos" src="./images/payment-logos.png" alt=""></div>
+  <p id="designP">Design and execution</p>
+  <div class="svgPic1"><img class="svgs" src="./images/logo-emex.svg" alt=""></div>
+  <div class="svgPic2"><img class="svgs" src="./images/logo-shoper.svg" alt=""></div>
+  
+
+</footer>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
