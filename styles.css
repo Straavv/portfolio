@@ -72,6 +72,10 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+nav > button {
+  border: none;
+}
+
 /*----------------------------------Profile picture and description sections------------------*/
 
 .profileContainer {
