@@ -80,23 +80,23 @@ function linkContact() {
     const contact = document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
 }
 
-
+/*-----------------------------------Menu on the left dropdown------------------------------------*/
 
 const testBtn = document.getElementById('menuPic');
 const testMenu = document.querySelector('.testMenu');
 
 
 testBtn.addEventListener('click', function() {
-     
+    
     testMenu.classList.toggle('active');
-    
-    
-    
-    // testMenu.style.width = '100%';
-    
-    
-    
    
-
 })
+
+
+/*-----------------------------Touch screen hover-----------------------*/
+
+
+const project1Hover = document.querySelector(".project1--pic");
+
+project1Hover.addEventListener("touchstart", function() {}, true);
 
