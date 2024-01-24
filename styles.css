@@ -530,6 +530,47 @@ footer > p {
 }
 
 
+
+
+.testMenu {
+  display: flex;
+  position: fixed;
+  top: 6.5rem;
+  left: 0;
+  width: 0%;
+  min-height: 100vh;
+  background-color: rgb(243, 242, 242);
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+  overflow: hidden
+}
+
+
+
+.active {
+  width: 100%;
+}
+
+
+
+
+.testMenu > a {
+  margin-top: 70px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: black;
+  cursor: pointer;
+}
+
+.testMenu > a:hover {
+  transform: scale(1.07);
+  transition: ease-in-out 0.3s;
+}
+
+
+
+
 /*----------------------Media queries----------------------------*/
 
 @media (max-width: 785px) {

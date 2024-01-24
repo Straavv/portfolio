@@ -83,9 +83,20 @@ function linkContact() {
 
 
 const testBtn = document.getElementById('menuPic');
+const testMenu = document.querySelector('.testMenu');
 
 
 testBtn.addEventListener('click', function() {
-    console.log('works')
+     
+    testMenu.classList.toggle('active');
+    
+    
+    
+    // testMenu.style.width = '100%';
+    
+    
+    
+   
+
 })
 
