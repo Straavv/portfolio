@@ -79,3 +79,13 @@ const home = projects.getBoundingClientRect().top + window.pageYOffset + homeOff
 function linkContact() {
     const contact = document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
 }
+
+
+
+const testBtn = document.getElementById('menuPic');
+
+
+testBtn.addEventListener('click', function() {
+    console.log('works')
+})
+

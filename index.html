@@ -15,10 +15,11 @@
   <header>
     <h1><a href="#/">Mazan.dev</a></h1>
     <nav>
-    <a  onClick="linkHome()">Home</a>
+    <a onClick="linkHome()">Home</a>
     <a onClick="linkAboutMe()">About me</a>
     <a onClick="linkProjects()">My Projects</a>
     <a onClick="linkContact()">Contact</a>
+    <img id="menuPic" src="./images/menu.png" />
     </nav>
   </header>
   <!--Profile picture and description sections-->
@@ -31,7 +32,15 @@
     </div>
     <div class="profileRowOne">
     <div class="profileSkills">
-      <h2>My current tech stack |</h2> <img class="stackIcons" src="./images/html.svg" /> <img class="stackIcons" src="./images/css3.svg" /> <img class="stackIcons" style="width: 75px; height: 75px;" src="./images/javascript.svg" /> <img class="stackIcons" style="width: 75px; height: 75px;" src="./images/react.svg" />
+      <div class="profileSkills--1">
+      <h2>My current tech stack <span id="funnyTest">|</span></h2>
+      </div>
+      <div class="profileSkills--2">
+      <img class="stackIcons" src="./images/html.svg" /> 
+      <img class="stackIcons" src="./images/css3.svg" /> 
+      <img class="stackIcons" style="min-width: 65px; min-height: 65px;" src="./images/javascript.svg" /> 
+      <img class="stackIcons" style="min-width: 65px; min-height: 65px;" src="./images/react.svg" />
+      </div>
     </div>
     </div>
   </div>
@@ -103,7 +112,6 @@
       </div>
       <div class="contact--div2">
       <a href="mailto:straawhat@gmail.com" class="contact--links">Mail</a><img src="./images/gmail.svg" class="socialIcons" style="width: 30px; height: 30px;margin-left: 10px;" />
-      
       </div>
       <a class="contact--links" style="margin-top: 10px;">[straawhat@gmail.com]</a>
       </div>

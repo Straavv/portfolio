@@ -5,10 +5,19 @@
   font-family: 'Montserrat', sans-serif;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red */
+   
+  
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  /* min-width: 100%; */
+  
+  
+  
+  
+
 }
 
 /*---------------------------------Header section--------------------*/
@@ -21,7 +30,8 @@ header {
   padding: 10px;
   background-color: rgb(243, 242, 242);
   box-shadow: 0.5px 0.1px 5px rgba(128, 128, 128, 0.374);
-  width: 100%;
+  min-width: 100%;
+  
 }
 
 header h1 {
@@ -39,9 +49,12 @@ header h1:hover {
   transform: scale(1.05);
 }
 
+
+
 nav {
   display: flex;
   padding: 20px;
+  
   
 }
 
@@ -56,16 +69,15 @@ nav a {
 }
 
 nav a:hover {
-  font-weight: 600;
   transform: scale(1.05);
 }
 
 /*----------------------------------Profile picture and description sections------------------*/
 
 .profileContainer {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  width: 100%;
+  min-width: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -76,10 +88,12 @@ nav a:hover {
   display: flex;
   flex-direction: row;
   
+  
+  
 }
 
 .profilePic {
-  width: 130px;
+  max-width: 130px;
   height: 130px;
   overflow: hidden;
   border-radius: 90%;
@@ -103,6 +117,7 @@ nav a:hover {
   margin-left: 10px;
   padding: 10px;
   text-align: center;
+  
 }
 
 .profileRowOne {
@@ -112,13 +127,19 @@ nav a:hover {
   
 }
 
+
+
 .profileSkills {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   user-select: none;
-  margin-left: -20px;
+  /* margin-left: -2.1em; */
+  /* margin: 0px 400px; */
+  min-width: 100%;
+  
+
 }
 
 #hello {
@@ -132,24 +153,29 @@ nav a:hover {
 .aboutMe {
   display: flex;
   flex-direction: row;
-  padding: 0px 400px;
-  height: 100vh;
+  /* padding: 0px 400px; */
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: rgb(243, 242, 242);
+  min-width: 100%;
+  
   
 
 }
 
 
 
+
+
 .aboutMe---img {
   display: flex;
-  width: 330px;
+  min-width: 330px;
   height: 300px;
   margin-right: 30px;
   margin-top: 10px;
   margin-left: 100px;
+  /* max-width: 100%; */
 }
 
 .aboutMe---img > img {
@@ -161,8 +187,8 @@ nav a:hover {
 .aboutMe---info {
   display: flex;
   flex-direction: column;
-  
-  min-width: 500px;
+  max-width: 100%;
+  /* min-width: 500px; */
   height: 300px;
   justify-content: space-around;
   
@@ -171,12 +197,22 @@ nav a:hover {
 
 /*----------------------Project 1 section-------------------------*/
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 
+  justify-content: center;
+  align-items: center;
+  
+  
+ 
+}
 
 .project1 {
 display: flex;
 flex-direction: row;
-margin: 0px 270px;
+/* padding: 30px 300px; */
 margin-bottom: 30px;
 padding: 30px;
 /* background-color: rgb(243, 242, 242); */
@@ -185,13 +221,19 @@ border-radius: 20px;
 /* box-shadow: 0.5px 0px 5px 5px rgba(188, 191, 0, 0.629); */
 /* box-shadow: 0.5px 0px 5px 3px rgba(23, 23, 23, 0.629); */
 box-shadow: 0.5px 1px 15px rgba(19, 19, 19, 0.236);
+max-width: 900px;
+
+justify-content: center;
+align-items: center;
+
+
 
 }
 
 .project1--info {
   display: flex;
   flex-direction: column;
-  width: 350px;
+  max-width: 350px;
   text-align: center;
   margin-top: 30px;
   margin-left: 20px;
@@ -204,13 +246,17 @@ box-shadow: 0.5px 1px 15px rgba(19, 19, 19, 0.236);
 .project2 {
   display: flex;
   flex-direction: row;
-  margin: 0px 270px;
+  /* margin: 0px 270px; */
   padding: 30px;
   /* background-color: rgb(243, 242, 242); */
   margin-top: 100px;
   border-radius: 10px;
   box-shadow: 0.5px 1px 15px rgba(19, 19, 19, 0.236);
   margin-bottom: 100px;
+  /* min-width: 100%; */
+  max-width: 900px;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -260,10 +306,11 @@ box-shadow: 0.5px 1px 15px rgba(19, 19, 19, 0.236);
     display: flex;
     margin-top: 60px;
     flex-direction: column;
-    padding: 0px 280px;
+    
     height: 70vh;
     justify-content: center;
     background-color: rgb(243, 242, 242);
+    min-width: 100%;
     
     
 }
@@ -276,7 +323,7 @@ box-shadow: 0.5px 1px 15px rgba(19, 19, 19, 0.236);
   
   
   border-radius: 10px;
-  width: 500px;
+  min-width: 100%;
 }
 
 
@@ -299,7 +346,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  min-width: 100%;
 }
 
 footer > p {
@@ -311,8 +358,8 @@ footer > p {
 /* --------------Icons SVG section of Stack Languages----------------- */
 
 .stackIcons {
-  height: 80px;
-  width: 80px;
+  min-height: 70px;
+  max-width: 70px;
   border-radius: 20px;
   padding: 10px;
   
@@ -366,6 +413,7 @@ footer > p {
   display: flex;
   height: 350px;
   width: 550px;
+  background-size: 350px 550px;
   margin-right: 30px;
   border-radius: 10px;
   /* box-shadow: 0px 0px 2px 3px rgb(0, 0, 0); */
@@ -373,7 +421,7 @@ footer > p {
   background-image: url(./images/fullPageSunTrend.png);
   background-size: cover;
   background-position: top;
-  transition: ease-in-out 8s;
+  transition: background-position ease-in-out 8s;
 
 }
 
@@ -388,7 +436,7 @@ footer > p {
   background-image: url(./images/fullPageHealthSense.png);
   background-size: cover;
   background-position: top;
-  transition: ease-in-out 8s;
+  transition: background-position ease-in-out 8s;
 }
 
 
@@ -422,8 +470,9 @@ footer > p {
 
 #heading--projects {
   margin-top: 50px;
-  padding: 0px 270px;
+  
   color: rgb(0, 139, 231);
+  
 
 }
 
@@ -435,6 +484,7 @@ footer > p {
 
   
 }
+
 
 .div--sunTrend {
   display: flex;
@@ -463,3 +513,132 @@ footer > p {
 #aboutMe {
   transition: 2s;
 }
+
+
+
+
+
+#menuPic {
+  width: 30px;
+  height: 30px;
+  display: none;
+  
+}
+
+#menuPic:hover {
+  cursor: pointer;
+}
+
+
+/*----------------------Media queries----------------------------*/
+
+@media (max-width: 785px) {
+
+
+  
+  nav > a {
+  display: none;
+  }
+
+  header {
+    padding: 20px;
+  
+  }
+
+  header > h1 {
+    margin-left: 40px;
+  }
+
+    #menuPic {
+      display: flex;
+      align-self: center;
+
+    }
+
+   .profileColumnOne {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+
+   .profileSkills {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .profileName {
+    font-size: 0.8rem;
+   }
+
+   #funnyTest {
+    display: none;
+   }
+
+
+
+    .aboutMe {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* width: 1200px;
+      max-width: calc(100% - 20px);
+      margin: 0 auto;
+      padding: 0 10px; */
+      
+      
+    }
+
+    .aboutMe---img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      padding: 0;
+      
+    }
+
+    .aboutMe---info {
+      
+      margin: 0 auto;
+      max-width: 330px;
+      
+    }
+
+    .project1 {
+      max-width: 100%;
+      flex-direction: column;
+    }
+
+    .languages--container {
+      margin-top: 30px;
+    }
+
+    .project2 {
+      max-width: 100%;
+      flex-direction: column;
+    }
+
+    .project1--pic {
+      width: 320px;
+      align-self: center;
+      margin: 0 auto;
+    }
+
+    .project2--pic {
+      width: 320px;
+      align-self: center;
+      margin: 0 auto;
+    }
+
+
+  /* make it f responsive as background images and withought sliding effect wtf*/
+}
+
+
+/* @media (max-width: 992px) {
+  .portfolio {
+      padding:  270px;
+    }
+} */
