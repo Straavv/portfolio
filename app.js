@@ -100,3 +100,6 @@ const project1Hover = document.querySelector(".project1--pic");
 
 project1Hover.addEventListener("touchstart", function() {}, true);
 
+const project2Hover = document.querySelector(".project2--pic");
+
+project2Hover.addEventListener("touchstart", function() {}, true);
