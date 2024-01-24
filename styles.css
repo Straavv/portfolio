@@ -427,6 +427,7 @@ footer > p {
   background-size: cover;
   background-position: top;
   transition: background-position ease-in-out 8s;
+  user-select: none;
 
 }
 
@@ -442,6 +443,7 @@ footer > p {
   background-size: cover;
   background-position: top;
   transition: background-position ease-in-out 8s;
+  user-select: none;
 }
 
 
