@@ -690,9 +690,10 @@ position: absolute;
 .classMidPic2 {
 overflow: hidden;
 border-radius: 3px;
-border: 1px solid red;
+
 max-width: 100%;
 margin-right: 20px;
+margin-left: 20px;
 }
 
 #midPic1 {
