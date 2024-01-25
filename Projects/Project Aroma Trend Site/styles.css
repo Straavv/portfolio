@@ -7,11 +7,13 @@
   box-sizing: border-box;
   
   
+  
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   
+ 
   
 
   
@@ -21,9 +23,9 @@ body {
 /* ---------------------------------------------Top gray banner--------------------------------------- */
 
 .topGray {
-  height: 38px;
+  min-height: 45px;
   background-color: rgba(218, 218, 218, 0.495);
-  width: 100%;
+  min-width: 100%;
   display: flex;
   align-items: center;
   font-size: 13px;
@@ -38,6 +40,7 @@ body {
 font-family: inherit;
 text-decoration: none;
 color: black;
+max-width: 100%;
 }
 
 #linkMail {
@@ -78,8 +81,13 @@ color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   margin-top: 40px;
+  min-width: 100%;
+}
+
+.mainHeader > img {
+  margin-left: 20px;
 }
 
 #welcomeText {
@@ -129,6 +137,7 @@ font-size: 20px;
   margin-top: 36px;
   margin-right: 20px;
   justify-content: space-between;
+  max-width: 100%;
   
 }
 
@@ -576,9 +585,11 @@ padding-left: 80px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 24px;
-  height: 558px;
+  height: 524px;
   position: relative;
   overflow: hidden;
+  max-width: 100%;
+
   
   
   
@@ -589,7 +600,9 @@ padding-left: 80px;
 .slide {
 position: absolute;
 transition: all 1s;
-width: 100%;
+min-width: 100%;
+height: 100%;
+object-fit: cover;
 
 }
 
@@ -652,39 +665,45 @@ position: absolute;
 .middlePagePics {
  
   display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
   overflow: hidden;
   height: 390px;
-  width: 1480px;
+  /* width: 1480px; */
+  min-width: 100%;
   margin-top: 20px;
   border-radius: 3px;
-  
+  flex-direction: row;
   
   
 }
 
 .classMidPic1 {
   overflow: hidden;
-  width: 860px;
+  max-width: 860px;
   margin-right: 20px;
   border-radius: 3px;
+  margin-left: 20px;
+  
 }
 
 .classMidPic2 {
 overflow: hidden;
 border-radius: 3px;
+border: 1px solid red;
+max-width: 100%;
+margin-right: 20px;
 }
 
 #midPic1 {
-width: 860px;
+min-width: 860px;
 border-radius: 3px;
 transition: all 0.7s;
  
 }
 
 #midPic2 {
-width: 600px;
+min-width: 600px;
 border-radius: 3px;
 transition: all 0.7s;
 
@@ -755,14 +774,15 @@ overflow: hidden;
   margin-right: 20px;
   margin-top: 40px;
   display: flex;
+  max-width: 100%;
   
   
  
 }
 
 .logoManufPic {
-  width: 280px;
-  height: 130px;
+  max-width: 130px;
+  min-height: 130px;
   margin-left: 20px;
   border: rgb(200, 199, 199) 1px solid;
   object-fit: contain;
@@ -1208,7 +1228,7 @@ opacity: 0;
   flex-direction: row;
   border: 1px solid black;
   margin-top: 50px;
-  width: 100%;
+  min-width: 100%;
   height: 380px;
   background-color: rgb(37, 37, 37);
   line-height: 30.5px;
@@ -1350,3 +1370,34 @@ footer p {
   
 }
 
+@media (max-width: 932px) {
+  .topGray {
+    display: none;
+  }
+
+  #inputSearch, #shopping, #heart, #user, .menu, .bannerFourthRow, .bannerSecondRow, .bannerThirdRow, .logoManuf {
+    display: none;
+  }
+
+  .middlePagePics {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .mainHeader {
+    /* justify-content: space-evenly; */
+    margin-left: 0px;
+    justify-content: space-between;
+    
+  }
+
+  #welcomeText {
+    margin-right: 20px;
+  }
+
+
+  .picsCarousel {
+    height: 315px;
+  }
+  
+}
