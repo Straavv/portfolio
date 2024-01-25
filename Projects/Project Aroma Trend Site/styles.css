@@ -588,7 +588,7 @@ padding-left: 80px;
   height: 524px;
   position: relative;
   overflow: hidden;
-  max-width: 100%;
+  min-width: 90%;
 
   
   
