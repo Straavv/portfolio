@@ -69,11 +69,12 @@ nav a {
 }
 
 nav a:hover {
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 nav > button {
   border: none;
+  background-color: transparent;
 }
 
 /*----------------------------------Profile picture and description sections------------------*/
@@ -164,6 +165,8 @@ nav > button {
   background-color: rgb(243, 242, 242);
   min-width: 100%;
   
+  gap: 30px;
+  
   
 
 }
@@ -176,10 +179,14 @@ nav > button {
   display: flex;
   min-width: 330px;
   height: 300px;
-  margin-right: 30px;
-  margin-top: 10px;
-  margin-left: 100px;
+  align-self: center;
+  
+  
+  /* margin-right: 30px; */
+  /* margin-top: 10px; */
+  /* margin-left: 100px; */
   /* max-width: 100%; */
+  
 }
 
 .aboutMe---img > img {
@@ -191,10 +198,12 @@ nav > button {
 .aboutMe---info {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 500px;
   /* min-width: 500px; */
-  height: 300px;
+  min-height: 300px;
   justify-content: space-around;
+  
+  
   
 }
 
@@ -310,8 +319,8 @@ align-items: center;
     display: flex;
     margin-top: 60px;
     flex-direction: column;
-    
     height: 70vh;
+    /* padding-left: 300px; */
     justify-content: center;
     background-color: rgb(243, 242, 242);
     min-width: 100%;
@@ -324,10 +333,9 @@ align-items: center;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  
-  
   border-radius: 10px;
-  min-width: 100%;
+  max-width: 350px;
+  margin-left: 200px;
 }
 
 
@@ -529,6 +537,7 @@ footer > p {
   width: 30px;
   height: 30px;
   display: none;
+  background-color: transparent;
   
 }
 
@@ -652,6 +661,16 @@ footer > p {
       margin: 0 auto;
       max-width: 330px;
       
+    }
+
+    .contact {
+      padding-left: 0px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact--body {
+      margin-left: 0px;
     }
 
     .project1 {
