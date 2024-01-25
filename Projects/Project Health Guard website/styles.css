@@ -8,6 +8,8 @@
   
  
   
+ 
+  
   
 }
 
@@ -22,7 +24,7 @@ header {
   position: fixed;
   display: flex;
   align-items: center;
-  width: 100%;
+  min-width: 100%;
   background-color: white;
   z-index: 1;
   padding: 30px 75px;
@@ -224,7 +226,8 @@ flex-direction: column;
   margin-right: 78px;
   position: relative;
   margin-top: 170px;
- 
+  
+  
 }
 
 
@@ -1196,4 +1199,112 @@ font-size: 17px;
 .bottomFooter p a:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+
+@media (max-width: 990px) {
+
+
+header div:not(:first-child) {
+  display: none;
+}
+
+
+header {
+  justify-content: center;
+ 
+}
+
+.mainBanner {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+
+}
+
+.picBanner {
+  width: 90%;
+}
+
+.infoBanner {
+  min-width: 90%;
+  margin: 0 auto;
+  
+}
+
+.infoBanner > p {
+  font-size: 12px;
+  max-width: 100%;
+}
+
+
+.twoPics img {
+  max-width: 250px;
+  height: 300px;
+  
+}
+
+.twoPics {
+  height: 300px;
+}
+
+
+.twoPicsBody:hover .twoPicsText {
+  display: none;
+
+}
+
+.mediaBanner {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 10px;
+}
+
+.blogContainer {
+  display: none;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+  
+}
+
+.blogPic {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.bottomBannerContainer {
+  display: none;
+}
+
+
+.footerBannerContainer > h1 {
+  font-size: 20px;
+}
+
+.footerEndContainer {
+  flex-direction: column;
+}
+
+.footerEndPic img {
+  max-width: 100%;
+  height: 300px;
+}
+
+.bottomFooter {
+  display: none;
+}
+
+#upperH1 {
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 40px;
+}
+
+
 }
