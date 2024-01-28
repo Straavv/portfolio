@@ -776,6 +776,7 @@ overflow: hidden;
   margin-top: 40px;
   display: flex;
   max-width: 100%;
+  justify-content: space-evenly;
   
   
  
@@ -783,7 +784,7 @@ overflow: hidden;
 
 .logoManufPic {
   max-width: 130px;
-  min-height: 130px;
+  height: 130px;
   margin-left: 20px;
   border: rgb(200, 199, 199) 1px solid;
   object-fit: contain;
